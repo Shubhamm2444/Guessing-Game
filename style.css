@@ -1,0 +1,57 @@
+/* style.css (optional for styling) */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#difficulty-selection {
+  margin-bottom: 10px;
+}
+
+#difficulty {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#guessInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#guessButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#guessButton:hover {
+  background-color: #3e8e41;
+}
+
+#message {
+  font-weight: bold;
+  color: #000;
+}
+
+#history,
+#leaderboard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#guess-list,
+#leaderboard-list {
+  list-style: none;
+  padding: 0;
+}
+
+#guess-list li,
+#leaderboard-list li {
+  margin-bottom: 5px;
+}
