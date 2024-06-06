@@ -1,0 +1,19 @@
+Explanation:
+index.html: Sets up the basic visual structure of the game with a title, instructions, input field, button, and message area.
+style.css: Provides basic styling for the game elements to improve user experience.
+script.js: Handles the game logic:
+Generates a random target number.
+Tracks the number of attempts.
+Listens for the button click event.
+Validates the user's guess.
+Provides feedback based on the guess (too low, too high, or correct).
+Enables or disables the guess button based on the game state.
+
+Running the Game:
+Save the code as index.html, style.css, and script.js in the same directory.
+Open index.html in a web browser to start playing.
+
+Additional Features (Optional):
+Add a difficulty level that changes the range of the target number or the number of allowed guesses.
+Display a history of previous guesses and attempts.
+Implement a leaderboard to track high scores.
